@@ -1,0 +1,49 @@
+.div {
+  height: 100vh;
+  background-color: #c576f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardOut {
+  color: white;
+  width: 50vw;
+}
+
+.cardIn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid white;
+  padding: 50px 0px;
+  background-color: #51087e;
+  border-radius: 15px;
+  box-shadow: 6px 6px 100px #51087e;
+}
+
+.cardIn:hover {
+  box-shadow: 6px 6px 100px #d7a1f9;
+}
+
+img {
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+@media screen and (max-width: 780px) {
+ .cardIn{
+  display: block;
+  text-align: center;
+ }
+ .name{
+  display: block;
+ }
+}
